@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f1a;
+  color: #e8e8f0;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 3px solid #3ba3f0;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 10px;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+header p {
+  color: #b8b8d0;
+  margin: 0;
+  font-size: 1.05em;
+}
+
+header a {
+  color: #3ba3f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+#articles-list h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6em;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+article {
+  background: #1a1a2e;
+  padding: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid #262640;
+}
+
+article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(59, 163, 240, 0.25);
+  border-color: #3ba3f0;
+}
+
+article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+article .article-content {
+  padding: 18px;
+}
+
+.badge {
+  display: inline-block;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-apple { background: #a3a3a3; }
+.badge-samsung { background: #1428a0; }
+.badge-google { background: #4285f4; }
+
+article h2, article h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+article h3 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.15em;
+  transition: color 0.2s ease;
+}
+
+article h3 a:hover {
+  color: #3ba3f0;
+}
+
+article p {
+  color: #b8b8d0;
+  font-size: 0.95em;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #6a6a8a;
+  font-size: 0.9em;
+  border-top: 1px solid #2a2a3e;
+  margin-top: 50px;
+}
