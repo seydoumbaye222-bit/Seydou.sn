@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obsolescence logicielle : iOS vs Android, qui maintient son smartphone plus longtemps ?</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Obsolescence logicielle : iOS vs Android, qui maintient son smartphone plus longtemps ?</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=600" alt="Design smartphone premium" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Face à la rapidité d’évolution des systèmes d’exploitation mobiles, la durée pendant laquelle un smartphone reste fonctionnel dépend fortement de la politique d’obsolescence logicielle du fabricant. Cet article compare, selon une approche pratique, iOS et Android pour déterminer qui garde son appareil opérationnel le plus longtemps.</p>
+
+      <h2>Période de mise à jour officielle</h2>
+      <p>Apple garantit généralement 5 à 6 années de mises à jour majeures pour ses iPhone, tandis que les fabricants Android offrent entre 2 et 4 années, selon le modèle et la marque. Cette différence crée un écart notable dans la longévité logicielle.</p>
+
+      <h2>Politique de support des appareils</h2>
+      <p>iOS propose un support unifié : tous les iPhone compatibles reçoivent la même version simultanément. Sous Android, chaque fabricant (Samsung, Xiaomi, etc.) doit adapter la mise à jour, ce qui entraîne des décalages voire des abandons précoces pour les modèles bas de gamme.</p>
+
+      <h2>Impact sur les performances et la sécurité</h2>
+      <p>Les mises à jour iOS sont optimisées pour le matériel existant, limitant la dégradation des performances. Android, en revanche, peut souffrir de ralentissements sur les anciens appareils lorsque le système devient plus gourmand, et les correctifs de sécurité peuvent arriver avec retard.</p>
+
+      <h2>Coût et disponibilité des mises à jour</h2>
+      <p>Les mises à jour iOS sont gratuites et directement distribuées via le réseau d’Apple. Pour Android, certaines marques facturent des services de mise à jour ou ne proposent pas de version officielle, obligeant les utilisateurs à recourir à des ROM tierces.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, iOS se démarque par une politique de mise à jour plus longue, homogène et sécurisée, ce qui prolonge la durée de vie fonctionnelle des iPhone. Android offre une plus grande variété de modèles, mais la durée de support dépend fortement du constructeur, souvent plus courte.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Obsolescence%20logicielle%20%3A%20iOS%20vs%20Android%2C%20qui%20maintient%20son%20smartphone%20plus%20longtemps%E2%80%AF%3F%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-maintient-son-sma.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-maintient-son-sma.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Obsolescence%20logicielle%20%3A%20iOS%20vs%20Android%2C%20qui%20maintient%20son%20smartphone%20plus%20longtemps%E2%80%AF%3F&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-maintient-son-sma.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
