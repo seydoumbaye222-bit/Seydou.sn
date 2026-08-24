@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7 Years of Updates vs. the Apple Model: Repairability and Battery Life Examined</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>7 Years of Updates vs. the Apple Model: Repairability and Battery Life Examined</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?w=600" alt="Smartphone comparatif" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>The smartphone industry has experienced a true revolution in software longevity, with Google and Samsung now promising up to seven years of operating system updates on their latest flagship models. In the face of this unprecedented commitment, Apple maintains its historical strategy based on long-term software support and proven hardware optimization. However, the theoretical durability guaranteed by computer code inevitably collides with physical hardware constraints, particularly the gradual degradation of the battery and difficulties in accessing spare parts.</p>
+
+      <h2>Software Commitment: The New Seven-Year Standard vs. Apple's Consistency</h2>
+      <p>Google's announcement for its Pixel lineup, quickly followed by Samsung for its recent Galaxy models, to provide seven years of Android and security updates marks a major turning point. This promise officially surpasses the five to six years traditionally provided by Apple for its iPhones. However, the true strength of the California manufacturer lies in its historical consistency without formal contractual obligations, and in system optimization tailored specifically to a handful of proprietary chips. The Android giants' commitment will therefore need to prove itself in the long run to ensure components remain smooth after several years of software updates.</p>
+
+      <h2>The Physical Reality of the Battery: The True Longevity Bottleneck</h2>
+      <p>Regardless of the duration of software support, lithium-ion battery chemistry remains subject to the unyielding rules of natural wear and tear. After approximately five hundred to one thousand charge cycles, a battery's maximum capacity typically drops below 80 percent, directly impacting daily battery life and sometimes CPU performance. Apple manages this decline through battery health management tools integrated early into iOS, while Samsung and Google now offer adaptive charging optimization features. Nevertheless, reaching seven years of use without replacing the battery at least once or twice is a technical impossibility for the vast majority of users.</p>
+
+      <h2>Repairability and Spare Parts: Who Actually Makes Hardware Replacement Easier?</h2>
+      <p>The question of replacing batteries and wearing components puts repairability back at the center of the debate. Under pressure from Right to Repair legislation in the United States and Europe, Google and Samsung have partnered with specialized companies to provide genuine parts and official guides accessible to the general public. Apple has also launched its Self Service Repair program, but the manufacturer still enforces strict software serialization of components, which complicates the work of independent repairers. On this point, Google and Samsung offer a slightly more flexible approach, making long-term physical maintenance more financially accessible.</p>
+
+      <h2>The Verdict on True Durability: Software Isn't Everything</h2>
+      <p>Ultimately, choosing between Apple's model and the seven-year promise from Google or Samsung depends on the overall view of the device. Apple guarantees high resale value and seamless hardware integration that prolongs smooth phone usage, even if repairs outside the official network remain costly. Conversely, the combined effort of Google and Samsung offers an unmatched software guarantee on paper, coupled with steadily improving repairability. To fully take advantage of these seven years of updates, however, users must budget for a battery replacement midway through their smartphone's lifecycle.</p>
+
+      <h2>Conclusion</h2>
+      <p>In conclusion, while Google and Samsung have taken the lead in software announcements with seven years of support, Apple maintains a practical edge thanks to the energy efficiency of its chips and the residual value of its devices. The true durability of a smartphone is no longer measured solely by its operating system, but by how easily its owner can replace a worn-out battery. In the future, the true winner will be the manufacturer that combines this long-term software promise with affordable, easy-to-install DIY spare parts.</p>
+
+      </div>
+    <p><a href="7-ans-de-mises-a-jour-vs-le-modele-apple-reparabilite-et-bat.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
