@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obsolescence logicielle : iOS vs Android, qui tient le plus longtemps ?</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Obsolescence logicielle : iOS vs Android, qui tient le plus longtemps ?</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=600" alt="Applications smartphone" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un marché où chaque mise à jour peut devenir un facteur décisif, la longévité logicielle des smartphones influence directement votre investissement. Découvrez comment iOS et Android se positionnent face aux attentes de durabilité et pourquoi cela compte pour vous.</p>
+
+      <h2>Mises à jour iOS : un cycle maîtrisé</h2>
+      <p>Apple garantit généralement 5 à 6 ans de mises à jour majeures pour ses iPhone, indépendamment du modèle. Chaque version iOS est disponible simultanément pour tous les appareils compatibles, assurant une expérience homogène et un accès rapide aux nouvelles fonctionnalités.</p>
+
+      <h2>Mises à jour Android : diversité et contraintes</h2>
+      <p>Android est fragmenté : les constructeurs décident du calendrier de déploiement. La plupart des marques offrent 2 à 3 ans de mises à jour, tandis que Google Pixel assure jusqu’à 5 ans. Cette hétérogénéité peut retarder l’accès aux nouveautés et exposer certains modèles à des failles plus longtemps.</p>
+
+      <h2>Impact sur la sécurité et la performance</h2>
+      <p>Des correctifs de sécurité réguliers sont essentiels. iOS bénéficie d’une diffusion instantanée, limitant les vulnérabilités. Android, malgré le projet Project Mainline, dépend de l’engagement du fabricant. En performance, les iPhone conservent une fluidité grâce à l’optimisation hardware‑software, alors que les appareils Android vieillissent plus rapidement lorsqu’ils ne reçoivent plus de versions majeures.</p>
+
+      <h2>Valeur résiduelle et coût total de possession</h2>
+      <p>Un iPhone reste plus cher à l’achat, mais conserve une valeur de revente supérieure grâce à son support prolongé. Un Android haut de gamme voit sa valeur chuter plus rapidement si les mises à jour s’arrêtent. Sur le long terme, le coût total de possession peut être inférieur pour iOS, malgré le prix d’entrée plus élevé.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, iOS propose une prise en charge plus longue et cohérente, ce qui se traduit par une meilleure sécurité, des performances durables et une valeur de revente élevée. Android offre plus de choix et d’innovation, mais la durée du support dépend fortement du fabricant. Le choix se joue donc entre la garantie d’une longévité logicielle (iOS) et la flexibilité d’un écosystème plus varié (Android).</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Obsolescence%20logicielle%20%3A%20iOS%20vs%20Android%2C%20qui%20tient%20le%20plus%20longtemps%20%3F%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-tient-le-plus-lon.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-tient-le-plus-lon.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Obsolescence%20logicielle%20%3A%20iOS%20vs%20Android%2C%20qui%20tient%20le%20plus%20longtemps%20%3F&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fobsolescence-logicielle-ios-vs-android-qui-tient-le-plus-lon.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
