@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Patent Licenses Shape Voice Assistant AI</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>How Patent Licenses Shape Voice Assistant AI</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600" alt="Smartphone milieu de gamme" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Virtual assistants such as Siri, Bixby, and Google Assistant now incorporate generative AI features, but their evolution is not driven solely by technological innovation: patent licensing agreements among Apple, Samsung, and Google play a decisive role, influencing the capabilities offered to users and the market direction.</p>
+
+      <h2>Legal Context of AI Patents</h2>
+      <p>For several years, digital giants have been amassing patent portfolios related to deep learning, neural networks, and language models, creating a complex legal framework in which every new feature may be subject to intellectual property claims.</p>
+
+      <h2>Cross-Licensing among Apple, Samsung, and Google</h2>
+      <p>To avoid costly litigation, the three companies have entered into reciprocal licensing agreements, allowing Apple to use certain text-generation technologies developed by Google, Samsung to access Apple’s audio-processing algorithms, and Google to leverage Samsung’s computer-vision enhancements.</p>
+
+      <h2>Impact on Text and Image Generation Capabilities</h2>
+      <p>These licenses pave the way for integrating text-to-image models, richer contextual responses, and more natural speech synthesis into each assistant, but they also impose limits: features deemed overly competitive are often excluded from the agreements, slowing the adoption of certain innovations.</p>
+
+      <h2>Implications for Users and the Market</h2>
+      <p>For consumers, this translates into varying performance across ecosystems: iPhone users enjoy greater consistency between Siri and Apple services, Samsung devices benefit from more advanced visual AI, and Android users receive more diverse responses thanks to Google’s contributions.</p>
+
+      <h2>Conclusion</h2>
+      <p>In summary, patent licensing agreements are the common thread shaping the generative AI features of voice assistants, creating both technological synergies and strategic barriers that will influence the user experience for years to come.</p>
+
+      </div>
+    <p><a href="comment-les-licences-de-brevets-sculptent-lia-des-assistants.html">🇫🇷 Version française</a></p>
+</article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
