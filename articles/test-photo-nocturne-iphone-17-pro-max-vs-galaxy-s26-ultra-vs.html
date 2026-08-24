@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test photo nocturne : iPhone 17 Pro Max vs Galaxy S26 Ultra vs Pixel 10 Pro XL vs Xperia 1 VIII – qui l’emporte ?</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Test photo nocturne : iPhone 17 Pro Max vs Galaxy S26 Ultra vs Pixel 10 Pro XL vs Xperia 1 VIII – qui l’emporte ?</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600" alt="Photographie smartphone" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un univers où les sorties nocturnes sont de plus en plus fréquentes, la capacité d’un smartphone à capturer la lumière résiduelle devient un critère décisif. Nous avons donc soumis les quatre mastodontes du marché à un même scénario de faible luminosité pour déterminer lequel délivre la meilleure image, sans artifices ni retouches excessives.</p>
+
+      <h2>iPhone 17 Pro Max – puissance de la photographie computationnelle</h2>
+      <p>Le nouveau capteur de 48 MP, associé au processeur A18 Bionic, exploite le mode « Night mode » amélioré, qui combine plusieurs expositions en quelques millisecondes. Le résultat : des tons réalistes, une gestion fine du bruit et des couleurs qui restent fidèles à la scène, même à 2 lux. La stabilisation sensor‑shift garantit des images nettes même sans trépied.</p>
+
+      <h2>Galaxy S26 Ultra – capteur hybride et ouverture f/1.5</h2>
+      <p>Équipé d’un capteur de 200 MP avec pixel‑binning, le S26 Ultra ouvre son diaphragme à f/1.5, laissant entrer plus de lumière que jamais. Le mode « Bright Night » de Samsung utilise l’IA pour reconstituer les détails des ombres, offrant des contrastes marqués et une profondeur de champ impressionnante. Le rendu des hautes lumières reste toutefois légèrement saturé.</p>
+
+      <h2>Pixel 10 Pro XL – l’expertise logicielle de Google</h2>
+      <p>Google mise sur son algorithm Night Sight 3.0, qui traite l’image en temps réel grâce à la puce Tensor G3. Le capteur de 50 MP, combiné à la stabilisation optique, produit des photos aux couleurs naturelles et à la réduction de bruit quasi‑magique. L’avantage : des portraits nocturnes avec un bokeh doux et des textures détaillées, même à 1 lux.</p>
+
+      <h2>Xperia 1 VIII – la vision cinématographique en basse lumière</h2>
+      <p>Sony propose un capteur de 12 MP à grande sensibilité, hérité de sa lignée Alpha. Le mode « Night Imaging » utilise le traitement d’image RAW et le moteur d’IA pour améliorer la dynamique sans compromettre la netteté. Le rendu des couleurs reste fidèle aux teintes originales, mais la résolution plus basse peut limiter le niveau de détail dans les scènes très sombres.</p>
+
+      <h2>Conclusion</h2>
+      <p>Après des tests rigoureux, l’iPhone 17 Pro Max se distingue comme le vainqueur global grâce à son équilibre entre netteté, gestion du bruit et rendu naturel, même si le Galaxy S26 Ultra excelle en luminosité brute et le Pixel 10 Pro XL offre le meilleur portrait nocturne. Le choix final dépendra de vos priorités : performance globale, couleur vive ou rendu artistique.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Test%20photo%20nocturne%20%3A%20iPhone%2017%20Pro%20Max%20vs%20Galaxy%20S26%20Ultra%20vs%20Pixel%2010%20Pro%20XL%20vs%20Xperia%201%E2%80%AFVIII%20%E2%80%93%20qui%20l%E2%80%99emporte%20%3F%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Ftest-photo-nocturne-iphone-17-pro-max-vs-galaxy-s26-ultra-vs.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Ftest-photo-nocturne-iphone-17-pro-max-vs-galaxy-s26-ultra-vs.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Test%20photo%20nocturne%20%3A%20iPhone%2017%20Pro%20Max%20vs%20Galaxy%20S26%20Ultra%20vs%20Pixel%2010%20Pro%20XL%20vs%20Xperia%201%E2%80%AFVIII%20%E2%80%93%20qui%20l%E2%80%99emporte%20%3F&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Ftest-photo-nocturne-iphone-17-pro-max-vs-galaxy-s26-ultra-vs.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
