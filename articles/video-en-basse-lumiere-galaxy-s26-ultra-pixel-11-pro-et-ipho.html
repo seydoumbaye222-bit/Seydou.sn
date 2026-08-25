@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidéo en basse lumière : Galaxy S26 Ultra, Pixel 11 Pro et iPhone 17 Pro Max mis à l’épreuve</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Vidéo en basse lumière : Galaxy S26 Ultra, Pixel 11 Pro et iPhone 17 Pro Max mis à l’épreuve</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=600" alt="Applications smartphone" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un monde où les créateurs de contenu cherchent à capturer chaque instant, même dans les environnements les plus sombres, les performances vidéo en faible éclairage deviennent un critère décisif. Nous avons testé les trois flagships les plus attendus – le Galaxy S26 Ultra, le Pixel 11 Pro et l’iPhone 17 Pro Max – pour voir lequel délivre la meilleure qualité d’image lorsqu’il fait noir.</p>
+
+      <h2>Galaxy S26 Ultra – la lumière dans l’obscurité</h2>
+      <p>Le S26 Ultra exploite un capteur de 200 MP avec une grande taille de pixel, couplé à la technologie d’éclairage par IA de Samsung. En mode vidéo nocturne, il augmente la luminosité de 40 % sans introduire de bruit visible, grâce à la stabilisation optique à 6 axes et à la fusion de plusieurs expositions. Les couleurs restent fidèles, les détails des ombres se révèlent, et le rendu HDR reste fluide même sous un éclairage très faible.</p>
+
+      <h2>Pixel 11 Pro – la magie du Night Video</h2>
+      <p>Google mise sur le traitement logiciel avec son HDR+ Video et la nouvelle puce Tensor G3. Le Pixel 11 Pro combine un capteur de 50 MP et un algorithme de super‑résolution qui empile jusqu’à 15 cadres pour éclaircir les scènes sombres. Le résultat est une vidéo douce, presque cinématographique, où le bruit est presque inexistant et les tons de peau restent naturels, même dans des environnements de 2 lux.</p>
+
+      <h2>iPhone 17 Pro Max – la référence vidéo basse lumière</h2>
+      <p>Apple propose un capteur de 48 MP avec stabilisation par déplacement du capteur et le mode « Cinematic Light ». En basse lumière, le iPhone 17 Pro Max augmente la sensibilité ISO tout en conservant le Dolby Vision HDR. La vidéo conserve des noirs profonds, une netteté impressionnante et une gestion des hautes lumières qui évite la saturation, ce qui en fait le choix préféré des professionnels qui exigent une qualité constante.</p>
+
+      <h2>Conclusion</h2>
+      <p>Au final, chaque appareil excelle à sa manière : le S26 Ultra mise sur la puissance du capteur, le Pixel 11 Pro sur l’intelligence logicielle, et l’iPhone 17 Pro Max sur l’équilibre entre matériel et traitement. Le choix dépendra de vos priorités – détails bruts, rendu logiciel ou intégration fluide dans un écosystème professionnel – mais aucun ne laisse le spectateur dans l’obscurité.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Vid%C3%A9o%20en%20basse%20lumi%C3%A8re%20%3A%20Galaxy%20S26%20Ultra%2C%20Pixel%2011%20Pro%20et%20iPhone%2017%20Pro%20Max%20mis%20%C3%A0%20l%E2%80%99%C3%A9preuve%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fvideo-en-basse-lumiere-galaxy-s26-ultra-pixel-11-pro-et-ipho.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fvideo-en-basse-lumiere-galaxy-s26-ultra-pixel-11-pro-et-ipho.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Vid%C3%A9o%20en%20basse%20lumi%C3%A8re%20%3A%20Galaxy%20S26%20Ultra%2C%20Pixel%2011%20Pro%20et%20iPhone%2017%20Pro%20Max%20mis%20%C3%A0%20l%E2%80%99%C3%A9preuve&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fvideo-en-basse-lumiere-galaxy-s26-ultra-pixel-11-pro-et-ipho.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
