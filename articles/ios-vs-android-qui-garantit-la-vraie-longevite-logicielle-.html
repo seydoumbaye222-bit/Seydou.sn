@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iOS vs Android : qui garantit la vraie longévité logicielle ?</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>iOS vs Android : qui garantit la vraie longévité logicielle ?</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600" alt="Smartphone milieu de gamme" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un marché où le smartphone devient un véritable prolongement de notre quotidien, la capacité d’un appareil à rester à jour pendant plusieurs années influence fortement le choix d’achat. Entre iOS, réputé pour son écosystème fermé, et Android, avec sa diversité de constructeurs, qui assure réellement la longévité logicielle au fil du temps ? Décortiquons les promesses, les pratiques et les chiffres pour vous aider à décider.</p>
+
+      <h2>Mises à jour officielles : cadence et durée</h2>
+      <p>Apple délivre chaque année iOS 17, iOS 18, etc., et les appareils compatibles continuent de recevoir les mêmes versions pendant 5 à 6 années. Les fabricants Android, quant à eux, proposent des mises à jour de base (Android X) et des surcouches personnalisées, mais la plupart des marques s’arrêtent après 2 à 3 années, avec des variantes premium qui peuvent aller jusqu’à 4 ans. Cette différence de cadence influence directement la pertinence des nouvelles fonctionnalités et la protection contre les vulnérabilités.</p>
+
+      <h2>Gestion des appareils anciens : support prolongé vs fragmentation</h2>
+      <p>Le programme « iPhone Upgrade » d’Apple permet de conserver un appareil performant grâce à des optimisations logicielles même après la fin des mises à jour majeures. En revanche, Android souffre de fragmentation : les modèles plus anciens restent bloqués sur des versions antérieures, tandis que les mises à jour de sécurité arrivent parfois avec plusieurs mois de retard, surtout chez les marques low‑cost.</p>
+
+      <h2>Sécurité et correctifs : pourquoi la mise à jour compte</h2>
+      <p>Chaque mise à jour majeure intègre des correctifs de sécurité essentiels (patches contre les attaques zero‑day, améliorations du sandboxing, etc.). Apple publie généralement ces correctifs simultanément pour tous les appareils compatibles, alors que sous Android, les correctifs passent d’abord par le fabricant puis l’opérateur, ce qui crée des délais variables et expose les utilisateurs plus longtemps aux risques.</p>
+
+      <h2>Valeur de revente et coût total de possession</h2>
+      <p>Un iPhone bénéficiant de 5 ans de support conserve une valeur de revente supérieure, souvent 60 % du prix d’achat initial après trois ans. Les smartphones Android, même haut de gamme, voient leur valeur chuter plus rapidement dès la fin du support officiel. Ainsi, la longévité logicielle se traduit directement en économies pour le consommateur sur le long terme.</p>
+
+      <h2>Conclusion</h2>
+      <p>En définitive, si la durée de support logiciel est le critère décisif pour vous, iOS offre une garantie de mise à jour nettement plus longue et plus homogène que la plupart des appareils Android. Cependant, certains constructeurs premium Android réduisent l’écart, et le choix final dépendra de votre sensibilité à la diversité des appareils, au budget et à l’écosystème qui vous entoure.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=iOS%20vs%20Android%20%3A%20qui%20garantit%20la%20vraie%20long%C3%A9vit%C3%A9%20logicielle%E2%80%AF%3F%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fios-vs-android-qui-garantit-la-vraie-longevite-logicielle-.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fios-vs-android-qui-garantit-la-vraie-longevite-logicielle-.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=iOS%20vs%20Android%20%3A%20qui%20garantit%20la%20vraie%20long%C3%A9vit%C3%A9%20logicielle%E2%80%AF%3F&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fios-vs-android-qui-garantit-la-vraie-longevite-logicielle-.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
