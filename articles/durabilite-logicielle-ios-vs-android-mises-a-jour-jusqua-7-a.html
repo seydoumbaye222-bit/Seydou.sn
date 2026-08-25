@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Durabilité logicielle : iOS vs Android, mises à jour jusqu’à 7 ans</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <img src="../images/logo.png" alt="Logo" class="site-logo">
+    <h1>Durabilité logicielle : iOS vs Android, mises à jour jusqu’à 7 ans</h1>
+    <p><a href="../index.html">&larr; Retour à l'accueil</a></p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Mode sombre</button>
+  </header>
+  <main>
+    <article>
+      <div class="article-content">
+        <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=600" alt="Design smartphone premium" style="border-radius: 8px; margin-bottom: 15px; width: 100%;">
+
+        <p>Dans un marché où la longévité d’un smartphone devient un critère d’achat majeur, la capacité d’un système d’exploitation à proposer des mises à jour pendant plusieurs années influence directement la valeur perçue et le coût total de possession. Comparons iOS et Android sous l’angle d’une prise en charge prolongée, jusqu’à sept ans, comme on le ferait pour un bien immobilier.</p>
+
+      <h2>Période de support annoncée</h2>
+      <p>Apple garantit généralement 5 à 6 ans de mises à jour majeures pour ses iPhones, certains modèles atteignant 7 ans grâce à la stabilité du matériel. Google, via le programme Android One et les accords avec les constructeurs, promet 3 à 5 ans, mais des exceptions (Pixel 5, certains appareils Samsung) flirtent avec la barre des 7 ans.</p>
+
+      <h2>Fréquence et taille des mises à jour</h2>
+      <p>iOS déploie deux grandes versions annuelles, complétées de correctifs de sécurité mensuels. Android, selon le fabricant, propose une mise à jour majeure chaque année, mais les correctifs de sécurité peuvent être espacés de 1 à 3 mois, ce qui crée des disparités de réactivité.</p>
+
+      <h2>Impact sur la valeur résiduelle</h2>
+      <p>Un iPhone bénéficiant de 6 ans de support conserve 60 % de sa valeur initiale après trois ans, contre 45 % en moyenne pour les Android qui ne dépassent pas les 4 ans de support. La perspective d’une mise à jour jusqu’à 7 ans augmente la rentabilité de la revente ou du leasing.</p>
+
+      <h2>Coût total de possession (TCO)</h2>
+      <p>Le TCO d’un iPhone inclut un prix d’achat plus élevé, compensé par une durée de support plus longue et moins de dépenses en réparation. Un Android moyen, moins cher à l’achat, peut engendrer des coûts supplémentaires de remplacement ou d’achat d’un nouveau dispositif dès la fin du support officiel.</p>
+
+      <h2>Conclusion</h2>
+      <p>En résumé, si la durabilité logicielle est votre priorité et que vous êtes prêt à investir davantage au départ, iOS offre une garantie de mise à jour plus fiable jusqu’à sept ans. Android peut être attractif grâce à son prix initial, mais la variabilité du support entre les marques rend la planification à long terme plus incertaine.</p>
+
+      <div class="share-buttons">
+        <a href="https://wa.me/?text=Durabilit%C3%A9%20logicielle%20%3A%20iOS%20vs%20Android%2C%20mises%20%C3%A0%20jour%20jusqu%E2%80%99%C3%A0%207%20ans%20-%20https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fdurabilite-logicielle-ios-vs-android-mises-a-jour-jusqua-7-a.html" class="share-whatsapp" target="_blank">WhatsApp</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fdurabilite-logicielle-ios-vs-android-mises-a-jour-jusqua-7-a.html" class="share-facebook" target="_blank">Facebook</a><a href="https://twitter.com/intent/tweet?text=Durabilit%C3%A9%20logicielle%20%3A%20iOS%20vs%20Android%2C%20mises%20%C3%A0%20jour%20jusqu%E2%80%99%C3%A0%207%20ans&url=https%3A%2F%2Fseydoumbaye222-bit.github.io%2FSeydou.sn%2Farticles%2Fdurabilite-logicielle-ios-vs-android-mises-a-jour-jusqua-7-a.html" class="share-x" target="_blank">X</a>
+      </div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2026 Apple vs Samsung vs Google</p>
+  </footer>
+  <script>
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
